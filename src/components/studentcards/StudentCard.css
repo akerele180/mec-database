@@ -1,0 +1,26 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  margin: 0 auto;
+  padding: 5px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+aside {
+  padding: 15px;
+  width: 200px;
+  text-transform: capitalize;
+}
+.level {
+  text-transform: uppercase;
+}
+img {
+  width: 100%;
+  cursor: pointer;
+  transition: transform ease 0.5s;
+}
+img:hover {
+  transform: scale(1.1);
+}
