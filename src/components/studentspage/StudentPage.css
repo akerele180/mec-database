@@ -8,5 +8,9 @@ article {
     #a8eb12
   ); */
   width: 100%;
-  background-color: #dddddd;
+  /* background-color: #dddddd; */
+  background-image: linear-gradient(
+    rgba(235, 110, 39, 0.3),
+    rgba(0, 36, 139, 0.42)
+  );
 }

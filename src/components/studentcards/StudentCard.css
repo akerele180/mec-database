@@ -22,7 +22,7 @@ aside {
 aside:hover {
   transform: scale(1.04);
   /* transform: translateY(4px); */
-  background-color: #ffffff49;
+  background-color: #ffffff;
 }
 div.socials {
   display: flex;

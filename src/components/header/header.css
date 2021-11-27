@@ -6,6 +6,9 @@ header {
   background-color: #fff;
   z-index: 20;
   font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(
+    rgba(235, 110, 39, 0.3) rgba(0, 36, 139, 0.42)
+  );
 }
 @media screen and (max-width: 893px) {
   h1 {

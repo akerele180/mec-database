@@ -103,7 +103,7 @@ const students = [
   {
     id: 12,
     firstName: "chizitahra",
-    lastName: "murphy-uzohue",
+    lastName: "uzohue",
     level: "ss2",
     emailadd: "chloemurphy217@gmail.com",
     image:
