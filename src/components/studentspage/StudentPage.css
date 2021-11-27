@@ -1,11 +1,12 @@
 article {
-  margin-top: 135px;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right top,
     #ffffff,
     #cbfbff,
     #30ffff,
     #00ffb9,
     #a8eb12
-  );
+  ); */
+  width: 100%;
+  background-color: #dddddd;
 }

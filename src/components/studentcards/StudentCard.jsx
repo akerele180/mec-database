@@ -16,14 +16,16 @@ function StudentCard({ students }) {
             </div>
             {/* <ImageWrapper image={image} className={firstName + "-image"} /> */}
             <div className="basic-info">
-              <h2>{firstName + " " + lastName} </h2>
-              <h3 className="level">Class: {level}</h3>
+              <h4>{firstName + " " + lastName} </h4>
+              <h5 className="level">Class: {level}</h5>
               <div className="socials">
-                <a href={"mailto:" + emailadd} target="_blank">
+                <a href={"mailto:" + emailadd}>
                   <i class="far fa-envelope"></i>
                 </a>
                 <i class="fab fa-facebook-square"></i>
                 <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-whatsapp"></i>
                 <i class="fab fa-twitter"></i>
               </div>
             </div>

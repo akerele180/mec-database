@@ -4,10 +4,10 @@ import StudentPage from "./components/studentspage/StudentPage";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <StudentPage />
-    </div>
+    </>
   );
 }
 
