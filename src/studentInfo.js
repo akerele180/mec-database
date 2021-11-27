@@ -26,7 +26,7 @@ const students = [
     level: "ss3",
     emailadd: "gositony123@gmail.com",
     image:
-      "https://res.cloudinary.com/dgh0z5owk/image/upload/v1637561519/sample.jpg",
+      "https://res.cloudinary.com/dgh0z5owk/image/upload/v1638008883/mec%20students/awugosi-tony_akcybk.jpg",
   },
   {
     id: 4,
@@ -79,7 +79,8 @@ const students = [
     lastName: "okelu",
     level: "ss3",
     emailadd: "chideraokelu@gmail.com",
-    image: "./students-images/",
+    image:
+      "https://res.cloudinary.com/dgh0z5owk/image/upload/v1637561763/mec%20students/FANTA_k35lyz.jpg",
   },
   {
     id: 10,
@@ -96,7 +97,8 @@ const students = [
     lastName: "ashiru",
     level: "ss3",
     emailadd: "opeash234@gmail.com",
-    image: "./students-images/",
+    image:
+      "https://res.cloudinary.com/dgh0z5owk/image/upload/v1638008883/mec%20students/opemipo_wob3jd.jpg",
   },
   {
     id: 12,
@@ -111,7 +113,7 @@ const students = [
     id: 13,
     firstName: "onyinyechi",
     lastName: "eleogu",
-    level: "ss3",
+    level: "ss2",
     emailadd: "eleoguonyinyechi@gmail.com",
     image:
       "https://res.cloudinary.com/dgh0z5owk/image/upload/v1637561765/mec%20students/ONYECHI_rhzxov.jpg",

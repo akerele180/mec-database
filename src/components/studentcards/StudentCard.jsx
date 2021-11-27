@@ -7,11 +7,11 @@ import Fade from "react-reveal/Fade";
 function StudentCard({ students }) {
   // console.log(students.image);
   return (
-    <Fade bottom big>
-      <section>
-        {students.map(({ firstName, lastName, image, id, emailadd, level }) => {
-          // console.log(image + "\n" + oreoluwa);
-          return (
+    <section>
+      {students.map(({ firstName, lastName, image, id, emailadd, level }) => {
+        // console.log(image + "\n" + oreoluwa);
+        return (
+          <Fade bottom big>
             <aside key={id} className={firstName}>
               <div className={firstName + "-image"}>
                 <img src={image} alt={firstName + "-image"} />
@@ -32,10 +32,10 @@ function StudentCard({ students }) {
                 </div>
               </div>
             </aside>
-          );
-        })}
-      </section>
-    </Fade>
+          </Fade>
+        );
+      })}
+    </section>
   );
 }
 
